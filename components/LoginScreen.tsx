@@ -67,10 +67,6 @@ const LoginScreen: React.FC<LoginScreenProps> = ({ onLoginSuccess }) => {
           Ingresar
         </Button>
       </form>
-      <div className="mt-4 text-xs text-center text-slate-500">
-          <p>Usuario: administrativa@cocinandosonrisas.co</p>
-          <p>Contraseña: Cocinando2025*</p>
-      </div>
     </div>
   );
 };

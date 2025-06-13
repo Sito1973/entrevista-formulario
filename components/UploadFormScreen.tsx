@@ -174,7 +174,7 @@ const UploadFormScreen: React.FC<UploadFormScreenProps> = ({ userEmail, onLogout
                   className="relative cursor-pointer bg-white rounded-md font-medium text-sky-600 hover:text-sky-500 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-sky-500"
                 >
                   <span>Subir un archivo</span>
-                  <input id="audioFile" name="audioFile" type="file" className="sr-only" onChange={handleFileChange} accept="audio/*,video/mp4" ref={fileInputRef} required />
+                  <input id="audioFile" name="audioFile" type="file" className="sr-only" onChange={handleFileChange} accept="audio/*,video/mp4,audio/mp4,audio/m4a,audio/x-m4a" ref={fileInputRef} required />
                 </label>
                 <p className="pl-1">o arrastrar y soltar</p>
               </div>

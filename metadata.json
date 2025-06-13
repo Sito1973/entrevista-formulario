@@ -1,0 +1,6 @@
+
+{
+  "name": "Cocinando Sonrisas - Cargador de Audio",
+  "description": "Una aplicación para que los colaboradores de Cocinando Sonrisas suban entrevistas en audio. Requiere autenticación y permite enviar los datos a un webhook de n8n.",
+  "requestFramePermissions": []
+}
